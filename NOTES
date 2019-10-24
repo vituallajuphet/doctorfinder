@@ -1,0 +1,18 @@
+ADMIN TABLE
+- admin_id
+- username
+- password
+- full_name
+
+USER TABLE
+- user_id
+- username
+- password
+- full_name
+
+UPDATE_TBL TABLE
+- update_id
+- account_name
+- account_link
+- recipient
+

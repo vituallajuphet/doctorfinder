@@ -1,0 +1,49 @@
+/* HEADER */
+.main-header .sign_out{ margin-left: 3px; }
+
+
+
+
+/* OTHER */
+#login{ width: 500px; max-width: 100%; margin: 150px auto;  border: 1px solid; border-top: 4px solid #64aae6 !important; border-radius: 5px;border: 1px solid #e4e4e4;}
+#login h4{ text-align: center; font-weight: 600; color: #5d5d5d; margin-bottom: 25px;}
+.login_content{ padding: 20px 20px 33px;}
+.login_content .input-group{ margin: 10px 0px; }
+.login_content button{ width: 116px; float: right; display: block; }
+.login_content .notif{ text-align: center; }
+
+/* table */
+.content table.email-tbl tbody tr td:last-child{width: 70px}
+
+.content  table tbody tr td .btn{padding: 2px 12px;}
+
+.content table tbody tr td:last-child span:first-child{margin-right: 5px}
+.content table tbody tr td:last-child span{cursor: pointer;}
+
+.box-header .box-title {margin: 0 0 15px}
+.req{color: red}
+
+/* USER */
+.box-user .button-create-usr{ margin-left: 10px !important; border-radius: 2px !important; }
+.box-user  table tbody tr td .btn{padding: 2px 7px; border-radius: 3px;}
+
+.bg-red, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body { background-color: #dd4b39 !important; }
+
+.dpicker{width: 172px;float:right}
+
+.srchbar{width: 200px;margin-right:20px;float: right }
+#btn_mod{float: right;margin-left:10px }
+
+.no-data-tbl{text-align: center;font-weight: bold;color: #bf3f3f}
+
+
+
+
+.login_content .logo img{width: 100%}
+
+.login_content .logo { max-width: 288px; margin: 0 auto 19px; }
+.main-header .logo .logo-lg{font-size: 15px!important}
+
+span.marker{background: yellow!important}
+
+.bb-active{background: #3c8dbc;color:#fff;}

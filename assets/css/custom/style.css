@@ -1,0 +1,37 @@
+.navbar{margin-bottom: 0;border-radius: 0}
+
+.bnr_cont {}
+.bnr_cont  .jumbotron{min-height: 500px}
+
+.main_con{min-height: 342px;}
+main p{font-size: 15px;}
+
+main .p_top{font-weight: bold}
+
+/* bottoms */
+#bottom1{background: #d1e1a7;}
+.btn1_con{min-height: 400px;color: #fff}
+
+.btn1_con figure img{width: 100%}
+
+.btn1_con figure {margin: 43px 0 0}
+
+.btm2_con{text-align: center;padding: 30px 0;}
+.ser_list{margin-top: 30px;}
+.ser_list .serv-colm h4{font-weight: bold}
+
+.serv-colm figure img{width: 100%; margin: 0 auto; max-width: 182px;}
+.serv-colm figure{text-align: center}
+
+.btm3_con .carousel{min-height: 254px;background: #c8e6b3;}
+
+.btm3_con .carousel-inner { padding-top: 40px; }
+
+/* footer */
+.ftr_top { height: 300px; }
+.ftr_top .map{width: 100%;height: 100%}
+.ftr_btm{text-align: center;min-height: 93px;background: #c8e6b3;padding: 30px 0 }
+
+/* non-home */
+
+.bnr_info{min-height: 400px; background: #cff6b7;}

@@ -77,8 +77,13 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
+<<<<<<< HEAD
 	'password' => '',
 	'database' => 'doctor_finder_db',
+=======
+	'password' => 'webdev2019',
+	'database' => 'updatestracker',
+>>>>>>> 83438cca80510e95c9c94b68125924ed868f465e
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

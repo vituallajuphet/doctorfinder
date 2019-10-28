@@ -1,0 +1,52 @@
+</div>
+</div>
+
+<?php echo $this->session->userdata("user_id"); ?>
+
+
+<!-- ./wrapper -->
+
+<!-- end app -->
+
+<script>
+  var user_info = {
+    id:'<?php echo $this->session->userdata("user_id");?>',
+    name:'<?php echo $this->session->userdata("full_name");?>',
+    email_add:'<?php echo $this->session->userdata("email_address");?>',
+    type:'<?php echo $this->session->userdata("user_type");?>'
+  }
+
+
+</script>
+
+
+<!-- jQuery 3 -->
+<script src="<?php  echo base_url();?>assets/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="<?php  echo base_url();?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="<?php  echo base_url();?>assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="<?php  echo base_url();?>assets/bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php  echo base_url();?>assets/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php  echo base_url();?>assets/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="<?php  echo base_url();?>assets/dist/js/demo.js"></script>
+<script src="<?php  echo base_url();?>assets/custom/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+<script src="<?php  echo base_url();?>assets/custom/js/apps.js"></script>
+
+
+<script>
+  $(document).ready(function () {
+
+    $('#datepicker').datepicker({
+      autoclose: true
+    })
+  })
+</script>
+
+</body>
+</html>

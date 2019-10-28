@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+<<<<<<< HEAD
 $route['default_controller'] = 'PageController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
@@ -65,3 +66,59 @@ $route["/"] = 'PageController';
 $route["about-us"] = 'PageController/about';
 $route["question-and-answer"] = 'PageController/question_and_answer';
 $route["contact-us"] = 'PageController/contact_us';
+=======
+// $route['default_controller'] = 'welcome';
+
+$route['login']                         = 'MainController/login';
+$route['process-login']                 = 'MainController/processLogin';
+
+
+
+// ADMIN ROUTES
+$route['admin']                         = 'AdminController';
+$route['admin/profile']                 = 'AdminController/viewProfile';
+$route['admin/update-profile']          = 'AdminController/updateProfile';
+
+// $route['admin/login']                   = 'MainController/adminLogin';
+// $route['admin/process-login']           = 'MainController/adminProcessLogin';
+// $route['admin/logout']                  = 'MainController/adminlogout';
+
+// EMAIL MODULE
+$route['admin/create-email']            = 'AdminController/createEmail';
+$route['admin/get-email']               = 'AdminController/getEmail';
+$route['admin/delete-email/(:num)']     = 'AdminController/deleteEmail/$1';
+$route['admin/update-email']            = 'AdminController/updateEmail';
+$route['admin/search-email']            = 'AdminController/searchEmail';
+
+// USERS MODULE
+$route['admin/user']                    = 'AdminController/user';
+$route['admin/create-user']             = 'AdminController/createUser';
+$route['admin/delete-user/(:num)']      = 'AdminController/deleteUser/$1';
+$route['admin/update-user']             = 'AdminController/updateUser';
+$route['admin/user-list']               = 'AdminController/userList';
+$route['admin/search-user']             = 'AdminController/searchUser';
+
+
+// SMTP MODULE
+$route['admin/smtp']                    = 'AdminController/smtp';
+
+
+
+
+//SAMPLE
+$route['admin/sample']                  = 'AdminController/sample';
+
+//USER ROUTES
+$route['default_controller']            = 'UserController';
+$route['user-process-login']            = 'MainController/userProcessLogin';
+$route['logout']                        = 'MainController/logout';
+$route['get-email']                     = 'UserController/getEmail';
+$route['profile']                       = 'UserController/viewProfile';
+$route['update-profile']                = 'UserController/updateProfile';
+
+
+$route['access-denied']                 = 'MainController/accessDenied';
+
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
+>>>>>>> 83438cca80510e95c9c94b68125924ed868f465e

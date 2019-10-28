@@ -23,7 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost/doctorfinder/';
+=======
+// $config['base_url'] = 'http://localhost/updatestracker/';
+$config['base_url'] = 'http://192.168.1.14/APPS/updatestracker/';
+
+
+>>>>>>> 83438cca80510e95c9c94b68125924ed868f465e
 
 /*
 |--------------------------------------------------------------------------
@@ -114,6 +121,10 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
+<<<<<<< HEAD
+=======
+// $config['subclass_prefix'] = 'MY_';
+>>>>>>> 83438cca80510e95c9c94b68125924ed868f465e
 $config['subclass_prefix'] = 'MY_';
 
 /*
